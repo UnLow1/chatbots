@@ -1,0 +1,32 @@
+html, body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: arial, serif;
+    overflow: hidden;
+}
+
+.header {
+    text-align: center;
+}
+
+.chatbotImage {
+    margin-top: 40px;
+    width: 35vw;
+}
+
+.chatbotOutput {
+    font-size: 15px;
+}
+
+.chatbotInput {
+    padding: 10px;
+    width: 95%;
+    font-size: 15px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    text-align: center;
+}

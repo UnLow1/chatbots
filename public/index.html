@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <title>QA abd AI ChatBots</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="row jumbotron">
+    <div class="col-6">
+        <h1 class="header">QA chatbot</h1>
+        <img class="chatbotImage" src="./chatbot.png" alt="chatbot image"/>
+        <label id="chatbotOutputQA" class="chatbotOutput mx-2">Talk to me.</label>
+        <div class="form-group m-2">
+            <input id="chatbotInputQA" type="text" class="form-control chatbotInput" placeholder="Enter message">
+        </div>
+        <input id="submitButtonQA" type="submit" class="btn btn-primary mx-2"/>
+    </div>
+    <div class="col-6">
+        <h1 class="header">AI chatbot</h1>
+        <img class="chatbotImage" src="./chatbot.png" alt="chatbot image"/>
+        <label id="chatbotOutputAI" class="chatbotOutput mx-2">Talk to me.</label>
+        <div class="form-group m-2">
+            <input id="chatbotInputAI" type="text" class="form-control chatbotInput mb-2" placeholder="Enter message">
+        </div>
+        <input id="submitButtonAI" type="submit" class="btn btn-primary mx-2"/>
+    </div>
+</div>
+<script src='./app.js'></script>
+</body>
+</html>
