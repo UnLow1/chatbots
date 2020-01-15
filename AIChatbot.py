@@ -7,6 +7,7 @@ def trainChatbot(chatbot):
 
     # Train the chatbot based on the english corpus
     trainer.train("chatterbot.corpus.english")
+    trainer.train("./corpus/myCorpus.yaml")
 
     # trainer.export_for_training('./export.json')
 
